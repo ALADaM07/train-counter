@@ -7,7 +7,6 @@
 
 // console.log(count)
 
-
 // let myAge = 32
 
 // let humanDogRatio = 7
@@ -16,8 +15,7 @@
 
 // console.log(myDogAge)
 
-
-// let count = 5 
+// let count = 5
 
 // // count + 1
 
@@ -29,8 +27,7 @@
 
 // console.log(count)
 
-
-// let bounsPoints = 50 
+// let bounsPoints = 50
 // console.log(bounsPoints)
 
 // bounsPoints = bounsPoints + 50
@@ -43,16 +40,12 @@
 
 // console.log(bounsPoints)
 
-
-
-
 // intialize the count as 0
 // listen for clicks on the increment button
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
-
-// first race 
+// first race
 // console.log(5)
 // console.log(4)
 // console.log(3)
@@ -80,13 +73,11 @@
 // // second race
 // countdown()
 
-
 // function number42() {
 //     console.log(42)
 // }
 
 // number42()
-
 
 // let lap1 = 34
 // let lap2 = 33
@@ -100,8 +91,6 @@
 
 // lapsum()
 
-
-
 // let lapsCompleted = 0
 
 // function incrementLap() {
@@ -113,44 +102,35 @@
 
 // console.log(lapsCompleted)
 
+let countEl = document.getElementById('count-el');
 
-
-let countEl = document.getElementById("count-el")
-
-let count = 0
+let count = 0;
 
 function increment() {
-    count += 1
-    countEl.textContent = count
+  count += 1;
+  countEl.textContent = count;
 }
 
-let saveEl = document.getElementById("save-el")
+let saveEl = document.getElementById('save-el');
 
 function save() {
-    let countStr = " " + count + " / "
-    saveEl.textContent += countStr
-    countEl.textContent = 0
-    count = 0
-}
- 
-function decrement () {
-    count -= 1
-    countEl.textContent = count
+  let countStr = ' ' + count + ' / ';
+  saveEl.textContent += countStr;
+  countEl.textContent = 0;
+  count = 0;
 }
 
+function decrement() {
+  count -= 1;
+  countEl.textContent = count;
+}
 
-
-
-
-
-
+// changed the count "-" to "/"
 
 // let username = "ADaM"
 // let message = "you have three new notifications"
 // let messageToUser = message + ", " + username + "!"
 // console.log(messageToUser)
-
-
 
 // let myName = "ADaM"
 // let greeting = "Hi, My name is "
@@ -158,14 +138,11 @@ function decrement () {
 
 // console.log(myGreeting)
 
-
 // let myName = 42
 // let greeting = "Hi, My name is "
 // let myGreeting = greeting + myName
 
 // console.log(myGreeting)
-
-
 
 // let points = 4
 // let bounsPoints = "10" // between numbers and string, strings always win
@@ -173,8 +150,6 @@ function decrement () {
 // let totalPoints = points + bounsPoints
 
 // console.log(totalPoints)
-
-
 
 // let welcomeEl = document.getElementById("welcome-el")
 // console.log(welcomeEl)
@@ -185,42 +160,3 @@ function decrement () {
 // welcomeEl.innerText = greeting + userName
 
 // welcomeEl.innerText += ":)"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
